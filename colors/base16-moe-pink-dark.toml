@@ -1,0 +1,31 @@
+# Alacritty color scheme based on Moe Dark
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.primary]
+# Default colors
+background = '#26292E'
+foreground = '#BDC3C7'
+
+# Normal colors
+[colors.normal]
+black = '#101010'
+red = '#FF4488'
+green = '#2BB1AF'
+yellow = '#FFE185'
+blue = '#4488cc'
+magenta = '#C679DD'
+cyan = '#39ABDC'
+white = '#7F8C8D'
+
+# Bright colors
+[colors.bright]
+black = '#333333'
+red = '#FF44BB'
+green = '#25A09D'
+yellow = '#EED077'
+blue = '#4488ff'
+magenta = '#B870CF'
+cyan = '#369ECD'
+white = '#9CACA8'
