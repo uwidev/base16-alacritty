@@ -1,4 +1,4 @@
-# Base16 moe-pink-dark - alacritty color config
+# Base16 base16-moe-pink-dark - alacritty color config
 # uwidev
 
 [colors]
@@ -12,7 +12,7 @@ foreground = '0xBDC3C7'
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
 text = '0x26292E'
-cursor = '0x0xBDC3C7'
+cursor = '0xBDC3C7'
 
 # Normal colors
 [colors.normal]
