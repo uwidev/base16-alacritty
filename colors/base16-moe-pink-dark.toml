@@ -1,31 +1,37 @@
-# Alacritty color scheme based on Moe Dark
+# Base16 moe-pink-dark - alacritty color config
+# uwidev
 
 [colors]
 draw_bold_text_with_bright_colors = false
 
-[colors.primary]
 # Default colors
-background = '#26292E'
-foreground = '#BDC3C7'
+[colors.primary]
+background = '0x26292E'
+foreground = '0xBDC3C7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x26292E'
+cursor = '0x0xBDC3C7'
 
 # Normal colors
 [colors.normal]
-black = '#101010'
-red = '#FF4488'
-green = '#2BB1AF'
-yellow = '#FFE185'
-blue = '#4488cc'
-magenta = '#C679DD'
-cyan = '#39ABDC'
-white = '#7F8C8D'
+black = '0x101010'
+red = '0xFF4488'
+green = '0x2BB1AF'
+yellow = '0xFFE185'
+blue = '0x4488cc'
+magenta = '0xC679DD'
+cyan = '0x39ABDC'
+white = '0x7F8C8D'
 
 # Bright colors
 [colors.bright]
-black = '#333333'
-red = '#FF44BB'
-green = '#25A09D'
-yellow = '#EED077'
-blue = '#4488ff'
-magenta = '#B870CF'
-cyan = '#369ECD'
-white = '#9CACA8'
+black = '0x333333'
+red = '0xFF44BB'
+green = '0x25A09D'
+yellow = '0xEED077'
+blue = '0x4488ff'
+magenta = '0xB870CF'
+cyan = '0x369ECD'
+white = '0x9CACA8'
